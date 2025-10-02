@@ -1,0 +1,21 @@
+/* Tarjetas Pokémon */
+.pokemon-card {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Imagen circular opcional en la tarjeta */
+.pokemon-card img {
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+/* Contenedor de búsqueda */
+.pokedex-search {
+  margin-bottom: 1rem;
+}

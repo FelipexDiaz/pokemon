@@ -1,0 +1,104 @@
+/* HP bar */
+.hp-bar {
+  width: 100%;
+  height: 20px;
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.hp-fill {
+  height: 100%;
+  background: #ff3860;
+  transition: width 0.5s ease;
+}
+
+/* Animaciones */
+.shake {
+  animation: shake-img 0.3s;
+}
+
+.redEye {
+  filter: drop-shadow(0 0 8px red) saturate(2);
+}
+
+.circle {
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+@keyframes shake-img {
+  0% { transform: translateX(0px); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0px); }
+}
+
+/* Pokéball de carga */
+.pokeball {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to bottom, #ee1515 50%, #fff 50%);
+  border: 4px solid #000;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  animation: shake 1s infinite;
+}
+
+.pokeball::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 4px solid black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  animation: blink 1s infinite;
+}
+
+.pokeball::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: black;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(-5px, 0) rotate(-10deg); }
+  50% { transform: translate(5px, 0) rotate(10deg); }
+  75% { transform: translate(-5px, 0) rotate(-10deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes blink {
+  0%, 50%, 100% { background: white; }
+  25%, 75% { background: red; }
+}
+
+.hp-bar {
+  width: 100%;
+  height: 20px;
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 5px auto;
+}
+
+.hp-fill {
+  height: 100%;
+  width: 100%;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}

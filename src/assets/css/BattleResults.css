@@ -1,0 +1,19 @@
+/* Tabla de resultados */
+.table img {
+  border-radius: 0;
+  border: none;
+}
+
+.button.is-danger {
+  margin-bottom: 0.5rem;
+}
+
+/* Centrado de texto en las celdas con imagen */
+.table td.has-text-centered {
+  vertical-align: middle;
+}
+
+/* Opcional: efecto hover */
+.table tbody tr:hover {
+  background-color: #f5f5f5;
+}
