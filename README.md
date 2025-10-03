@@ -1,5 +1,69 @@
-# Vue 3 + Vite
+Pokémon Battle App ⚔️
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+
+
+
+
+¡Bienvenido a la Pokémon Battle App!
+
+Explora Pokémon y observa (en tu imaginación) épicas batallas entre ellos 🥊.
+
+🛠 Tecnologías
+
+Vue 3 + Vite
+
+Axios para consumir la API de Pokémon
+
+Bulma como framework CSS
+
+PokéAPI (https://pokeapi.co/
+) para obtener datos de los Pokémon
+
+⚡ Características
+
+Lista de Pokémon con sprites e información básica
+
+Detalles de cada Pokémon al hacer clic
+
+Diseño responsive usando Bulma
+
+Batallas imaginarias… ¡porque pelean! ⚔️
+
+💻 Instalación
+
+Clona el repositorio y ejecuta:
+
+git clone <TU_REPOSITORIO>
+cd pokemon-axios
+npm install
+npm run dev
+
+
+Abre tu navegador en http://localhost:5173.
+
+📦 Estructura del proyecto
+pokemon-axios/
+├─ src/
+│  ├─ main.js
+│  ├─ App.vue
+│  ├─ services/
+│  │  └─ pokemonService.js
+│  └─ components/
+│     └─ PokemonCard.vue
+├─ package.json
+├─ vite.config.js
+└─ index.html
+
+🎨 Estilo
+
+Usamos Bulma para un diseño rápido y moderno:
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+/>
+
+⚔️ Diviértete
+
+¡Explora los Pokémon y déjalos pelear en tu imaginación! 🐱‍👤🔥
