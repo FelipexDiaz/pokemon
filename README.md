@@ -1,8 +1,13 @@
 Pokémon Battle App ⚔️
 
+
+
+
+
+
 ¡Bienvenido a la Pokémon Battle App!
 
-Esta aplicación te permite explorar Pokémon y verlos enfrentarse en épicas batallas… bueno, al menos en espíritu 🥊.
+Explora Pokémon y observa (en tu imaginación) épicas batallas entre ellos 🥊.
 
 🛠 Tecnologías
 
@@ -10,14 +15,14 @@ Vue 3 + Vite
 
 Axios para consumir la API de Pokémon
 
-Bulma como framework CSS para un diseño rápido y responsivo
+Bulma como framework CSS
 
 PokéAPI (https://pokeapi.co/
-) para obtener todos los datos de los Pokémon
+) para obtener datos de los Pokémon
 
 ⚡ Características
 
-Lista de Pokémon con sus sprites e información básica
+Lista de Pokémon con sprites e información básica
 
 Detalles de cada Pokémon al hacer clic
 
@@ -27,7 +32,7 @@ Batallas imaginarias… ¡porque pelean! ⚔️
 
 💻 Instalación
 
-Clona el repositorio y instala dependencias:
+Clona el repositorio y ejecuta:
 
 git clone <TU_REPOSITORIO>
 cd pokemon-axios
@@ -35,7 +40,7 @@ npm install
 npm run dev
 
 
-Abre tu navegador en http://localhost:5173 para ver la app en acción.
+Abre tu navegador en http://localhost:5173.
 
 📦 Estructura del proyecto
 pokemon-axios/
@@ -52,7 +57,7 @@ pokemon-axios/
 
 🎨 Estilo
 
-Usamos Bulma para el estilo rápido y limpio:
+Usamos Bulma para un diseño rápido y moderno:
 
 <link
   rel="stylesheet"
