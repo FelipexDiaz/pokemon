@@ -15,6 +15,8 @@
           Pokédex
         </router-link>
 
+        <router-link to="/favorites" class="navbar-item">Favoritos ❤️</router-link>
+
         <router-link
           to="/battle-results"
           class="navbar-item"

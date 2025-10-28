@@ -6,6 +6,7 @@ import PokedexView from "../views/PokedexView.vue";
 import PokemonDetail from "../views/PokemonDetail.vue";
 import BattleResults from "../views/BattleResults.vue";
 import NotFound from "../views/NotFound.vue";
+import FavoritesView from "../views/FavoritesView.vue";
 
 const routes = [
   // Página de inicio
@@ -22,6 +23,13 @@ const routes = [
 
   // Ruta catch-all para páginas no encontradas
   { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFound },
+
+  {
+    path: "/favorites",
+    name: "favorites",
+    component: FavoritesView,
+  },
+
 ];
 
 const router = createRouter({
