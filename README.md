@@ -1,69 +1,48 @@
 Pokémon Battle App ⚔️
 
+¡Bienvenido a la Pokémon Battle App! Una aplicación interactiva donde puedes explorar Pokémon y visualizar (en tu imaginación) épicas batallas entre ellos.
+
+🚀 Tecnologías utilizadas
+
+Vue 3: Framework progresivo para construir interfaces de usuario.
+
+Vite: Herramienta de construcción rápida y moderna.
+
+Axios: Cliente HTTP para consumir la PokéAPI
+.
+
+Bulma: Framework CSS para un diseño limpio y responsive.
+
+📦 Instalación
+
+Clona este repositorio:
+
+git clone https://github.com/FelipexDiaz/pokemon.git
 
 
+Navega al directorio del proyecto:
+
+cd pokemon
 
 
+Instala las dependencias:
 
-¡Bienvenido a la Pokémon Battle App!
-
-Explora Pokémon y observa (en tu imaginación) épicas batallas entre ellos 🥊.
-
-🛠 Tecnologías
-
-Vue 3 + Vite
-
-Axios para consumir la API de Pokémon
-
-Bulma como framework CSS
-
-PokéAPI (https://pokeapi.co/
-) para obtener datos de los Pokémon
-
-⚡ Características
-
-Lista de Pokémon con sprites e información básica
-
-Detalles de cada Pokémon al hacer clic
-
-Diseño responsive usando Bulma
-
-Batallas imaginarias… ¡porque pelean! ⚔️
-
-💻 Instalación
-
-Clona el repositorio y ejecuta:
-
-git clone <TU_REPOSITORIO>
-cd pokemon-axios
 npm install
+
+
+Inicia la aplicación:
+
 npm run dev
 
 
-Abre tu navegador en http://localhost:5173.
+La aplicación estará disponible en http://localhost:3000.
 
-📦 Estructura del proyecto
-pokemon-axios/
-├─ src/
-│  ├─ main.js
-│  ├─ App.vue
-│  ├─ services/
-│  │  └─ pokemonService.js
-│  └─ components/
-│     └─ PokemonCard.vue
-├─ package.json
-├─ vite.config.js
-└─ index.html
+🌟 Características
 
-🎨 Estilo
+Lista de Pokémon: Visualiza una lista con sprites e información básica de cada Pokémon.
 
-Usamos Bulma para un diseño rápido y moderno:
+Detalles completos: Al hacer clic en un Pokémon, accede a información detallada sobre él.
 
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-/>
+Diseño responsive: Gracias a Bulma, la aplicación se adapta a diferentes tamaños de pantalla.
 
-⚔️ Diviértete
-
-¡Explora los Pokémon y déjalos pelear en tu imaginación! 🐱‍👤🔥
+Batallas imaginarias: Disfruta de simulaciones de batallas entre tus Pokémon favoritos.
