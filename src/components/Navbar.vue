@@ -26,7 +26,7 @@
         </router-link>
 
         <router-link to="/about" class="navbar-item" active-class="is-active">
-          Acerca de
+          Acerca de (404)
         </router-link>
       </div>
     </div>
