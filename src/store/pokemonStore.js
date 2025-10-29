@@ -11,7 +11,7 @@ export const usePokemonStore = defineStore("pokemon", {
 
   actions: {
    // En src/stores/pokemonStore.js
-async fetchPokemons(limit = 150, offset = 0) {
+async fetchPokemons(limit = 151, offset = 0) {
   this.loading = true;
   this.error = null;
   try {
